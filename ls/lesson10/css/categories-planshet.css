@@ -1,0 +1,6 @@
+@media screen and (max-width: 900px) {
+    
+    .categories-block {
+        grid-template-columns: 100%;
+    }
+}

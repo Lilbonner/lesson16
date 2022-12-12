@@ -1,0 +1,42 @@
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-top: 200px;
+}
+.contact__image {
+  display: flex;
+}
+.contact__textblock {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 16px;
+  color: #8F95A5;
+}
+.contact__textblock h1 {
+  color: black;
+}
+.contact__textblock .form {
+  width: 100%;
+  display: flex;
+  gap: 25px;
+  font-size: 16px;
+}
+.contact__textblock .form .input {
+  width: 100px;
+  padding: 25px 80px;
+  box-sizing: border-box;
+  border: 1px solid #8F95A5;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.1s ease-in-out;
+}
+.contact__textblock .form .input:focus, .contact__textblock .form .input:hover {
+  outline: 5px solid #a1accb;
+}
+.contact__textblock .form .button {
+  padding: 25px 80px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}/*# sourceMappingURL=contacts.css.map */

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 47px 165px;
+    box-sizing: border-box;
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+
+    body {
+        padding: 47px 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    body {
+        padding: 47px 8px;
+    }
+}

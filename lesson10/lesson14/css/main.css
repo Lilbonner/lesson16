@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import "./header/style.css";
+@import "./intro/style.css";
+.skills-block {
+  display: grid;
+  grid-template-areas: "s w r" "s l l";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+/* .skills-block .imageblock img {
+    width: 100%;
+    height: 100%;
+} */
+.skills-block .textblock button {
+  padding: 10px 60px;
+  box-sizing: border-box;
+}
+
+.skills-block .speaking, .writing,
+.reading, .listening {
+  background: #dedede;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.skills-block .speaking {
+  grid-area: s;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr;
+}
+
+.skills-block .writing {
+  grid-area: w;
+}
+
+.skills-block .reading {
+  grid-area: r;
+}
+
+.skills-block .listening {
+  display: grid;
+  grid-area: l;
+  grid-template-columns: 1fr 1fr;
+}
+
+.skills-block .listening h2 {
+  text-align: start;
+}
+
+.skills-block .listening p {
+  text-align: start;
+}
+
+.skills-block .listening button {
+  display: flex;
+  align-self: flex-start;
+}
+
+* {
+  padding: none;
+  margin: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 60px 130px;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  padding: none;
+  background-color: none;
+  border-radius: 5%;
+}
+
+.white-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #263238;
+}
+
+.black-btn {
+  background: #263238;
+  color: white;
+  border: 2px solid #263238;
+}
+
+.title h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.text-gray {
+  color: #8F95A5;
+  font-size: 16px;
+}/*# sourceMappingURL=main.css.map */

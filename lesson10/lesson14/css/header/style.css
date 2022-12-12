@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo  {
+    display: flex;
+    font-size: 36px;
+}
+
+header .logo span:last-child {
+    color: #939393;
+}
+
+header nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #263238;
+}
+
+header button {
+    padding: 7px 17px;
+    box-sizing: border-box;
+}

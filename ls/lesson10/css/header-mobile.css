@@ -1,0 +1,23 @@
+@media screen and (max-width: 500px) {
+    .menu {
+        position: fixed;
+        right: -270px;
+        top: 0;
+        background-color: white;
+        height: 100vh;
+        width: 300px;
+        border-left: 1px solid black;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        padding-left: 30px;
+        padding-top: 30px;
+        box-sizing: border-box;
+        gap: 10px;
+    }
+
+    .menu:hover {
+        left: 50%;
+    }
+}

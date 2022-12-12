@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 160px;
+}
+footer .logo{
+    display: flex;
+    font-size: 32px;
+}
+footer .logo span:last-child{
+    color: #939393;
+}
+
+p {
+    font-size: 18px;
+    line-height: 36px;
+    color: #8F95A5;
+}
